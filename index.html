@@ -4,90 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pineapples - University of South Carolina</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f3f3f3;
-        }
-
-        header {
-            background-color: #73000a;
-            color: white;
-            text-align: center;
-            padding: 1em 0;
-        }
-
-        .section {
-            padding: 2em;
-            max-width: 1000px;
-            margin: auto;
-            background-color: #ffffff;
-            margin-bottom: 2em;
-        }
-
-        .image-placeholder {
-            width: 100%;
-            height: 200px;
-            background-color: #e0e0e0;
-            text-align: center;
-            line-height: 200px;
-            color: #555;
-            margin-top: 1em;
-        }
-
-        button {
-            background-color: #73000a;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="navbar">
+        <a href="#about">About</a>
+        <a href="#pillars">The Pillars</a>
+        <a href="#membership">Membership</a>
+        <a href="#contact">Contact</a>
+    </div>
+
     <header>
         <h1>Pineapples at University of South Carolina</h1>
     </header>
 
-    <div class="section">
+    <div class="section" id="about">
         <h2>About</h2>
-        <div class="<img src="images/activehouse.jpg">Image 1 Placeholder</div>
-        <p>We are a group of like-minded individuals that push each other to be the best we can be.</p>
-
-        <h3>The Pillars</h3>
-        <ul>
-            <li>Brotherhood</li>
-            <li>Academic Excellence</li>
-            <li>Philanthropy</li>
-            <li>Leadership</li>
-            <li>Asian-Awareness</li>
-        </ul>
-
-        <h3>Contact</h3>
-        <p>You can contact us via our social media channels or directly through the university directory.</p>
-    </div>
-
-    <div class="section">
-        <h2>Membership</h2>
-        <div class="image-placeholder">Image 2 Placeholder</div>
-
-        <h3>Why Join Pineapples?</h3>
+        <img src="images/activehouse.jpg" alt="Active House" class="image-placeholder">
         <p>Pineapples is a place where members develop character and live by foundations of honor, integrity, and brotherhood. We have stand for excellence and set high expectations for our members. We push ourselves to strive for higher goals and to hold each other accountable to those goals. This brotherhood is an opportunity to find peers to challenge you to reach your fullest potential.</p>
-
-        <h3>How to Join</h3>
-        <p>Membership with Pineapples begins by attending our rush events. Existing members (actives) will then extend a bid to join. If the prospective member accepts the bid, he goes through a process that assimilates new members into the organization and prepares them to make contributions to the house and to advance the ideals of the organization. If you are interested in joining Pineapples, contact any of the brothers (you can find contact information at your school or on the chapter directory page at this website). Additionally, we will post rush information on our social media pages at the beginning of each academic term.</p>
     </div>
 
-    <div class="section">
+    <div class="section" id="pillars">
+        <h2>The Pillars</h2>
+        <ul>
+            <li>
+                <span class="pillar-title">Brotherhood</span> 
+                <div class="pillars-images">
+                    <img src="simages/edc.jpg" alt="Brotherhood" class="pillar-image">
+                    <img src="simages/brosgiving.jpg" alt="Brotherhood" class="pillar-image">
+                    <img src="simages/fieldday.jpg" alt="Brotherhood" class="pillar-image">
+                    <img src="simages/fair.jpg" alt="Brotherhood" class="pillar-image">
+                    <img src="simages/gamecocks.jpg" alt="Brotherhood" class="pillar-image">
+                    <img src="simages/halloween.jpg" alt="Brotherhood" class="pillar-image">
+                    <img src="simages/franky.jpg" alt="Brotherhood" class="pillar-image">
+                    <img src="simages/22brosgiving.jpg" alt="Brotherhood" class="pillar-image">
+                    <img src="simages/gamma.jpg" alt="Brotherhood" class="pillar-image">
+                </div>
+            </li>
+            <li>
+                <span class="pillar-title">Academic Excellence</span>
+                <div class="pillars-images">
+                    <img src="simages/stevengrad.jpg" alt="Academic Excellence" class="pillar-image">
+                    <img src="simages/ethangrad.jpg" alt="Academic Excellence" class="pillar-image">
+                    <img src="simages/bengrad.jpg" alt="Academic Excellence" class="pillar-image">
+                </div> 
+            </li>
+            <li>
+                <span class="pillar-title">Philanthropy</span>
+                <div class="pillars-images">
+                    <img src="simages/adopthighway.jpg" alt="Philanthropy" class="pillar-image">
+                    <img src="simages/bigevent.jpg" alt="Philanthropy" class="pillar-image">
+                    <img src="simages/bigevents.jpg" alt="Philanthropy" class="pillar-image">
+                </div> 
+            </li>
+            <li>
+                <span class="pillar-title">Leadership</span>
+                <div class="pillars-images">
+                    <img src="simages/fa23eboard.jpg" alt="Leadership" class="pillar-image">
+                    <img src="simages/fa22eboard.jpg" alt="Leadership" class="pillar-image">
+                    <img src="simages/month.jpg" alt="Leadership" class="pillar-image">
+                </div> 
+            </li>
+            <li>
+                <span class="pillar-title">Asian-Awareness</span>
+                <div class="pillars-images">
+                    <img src="simages/china.jpg" alt="Asian-Awareness" class="pillar-image">
+                    <img src="simages/holi.jpg" alt="Asian-Awareness" class="pillar-image">
+                    <img src="simages/canto.jpg" alt="Asian-Awareness" class="pillar-image">
+                </div> 
+            </li>
+        </ul>
+    </div>
+
+    <div class="section" id="membership">
+        <h2>Membership</h2>
+        <p>Membership with Pineapples begins by attending our rush events. Existing members (actives) will then extend a bid to join. If the prospective member accepts the bid, he goes through a process that assimilates new members into the organization and prepares them to make contributions to the house and to advance the ideals of the organization. If you are interested in joining Pineapples, contact any of the brothers (you can find contact information at your school or on the chapter directory page at this website). Additionally, we will post rush information on our social media pages at the beginning of each academic term.</p>
+    </div>
+
+    <div class="section" id="contact">
+        <h2>Contact</h2>
+        <p>You can contact us via our social media channels or directly through the university directory.</p>
         <button onclick="window.location.href='https://www.instagram.com/uscpineapples/?hl=en'">Follow us on Instagram</button>
+        <button onclick="window.location.href='https://garnetgate.sa.sc.edu/organization/pineapples'">View our Garnet Gate</button>
     </div>
-
 </body>
 </html>
